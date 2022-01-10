@@ -1,0 +1,20 @@
+Como funciona:
+1º - Usuário faz uma requisição p/ uma URL
+2º - O Laravel recebe a requisição
+3º - O Laravel faz uma série de verificações
+        ...
+        - Ele verifica a rota e se existe um middleware atrelado a ela
+
+        Um middleware é um pedaço de código carregado antes da requisição chegar na Controller / Action
+        Ex de uso:
+            Um middleware que verifica se o usuário está logado
+            que verifica a idade
+            se o email foi verificado
+            etc
+
+4º - Chega na aplicação
+
+middle significa meio
+middleware = software que roda no meio
+
+-> São tipos de filtros que podem ser personalizados no laravel p/ validar regras específicas de sua aplicação
